@@ -74,6 +74,26 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
+@media (max-width: 460px) {
+  .banner {
+    background-image: url('./assets/img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+}
+
+@media (min-width: 461px) {
+  .banner {
+    background-image: url('./assets/img/bgimage.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+}
+
 p.success {
 	color: green;
 }
@@ -233,11 +253,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
-  background-image: url('./assets/img/bg1.jpg');
+  padding: 60px 0 200px 0;
+  /* background-image: url('./assets/img/bgimage.png');
   background-position: top center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .banner .tagline {
   font-weight: 700;
